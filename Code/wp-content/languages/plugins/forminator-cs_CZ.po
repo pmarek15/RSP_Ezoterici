@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Forminator &#8211; Contact Form, Payment Form &amp; Custom Form Builder - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-09-16 16:13:25+0000\n"
+"PO-Revision-Date: 2022-11-07 10:12:50+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -5845,6 +5845,10 @@ msgstr "Odpovědět Výsledková zpráva"
 msgid "Quiz Description"
 msgstr "Popis kvízu"
 
+#: admin/locale.php:1534
+msgid "By default this quiz will inherit the fonts your theme uses. You can override these fonts with custom ones from {{link}}Bunny Fonts{{/link}}."
+msgstr "Ve výchozím nastavení tento kvíz zdědí písma, která váš motiv používá. Tato písma můžete přepsat vlastními písmy z písem Google."
+
 #: admin/locale.php:94
 msgid "Label color"
 msgstr "Barva štítku"
@@ -6210,6 +6214,36 @@ msgstr "Ankety jsou zakázány."
 #: library/modules/quizzes/protection/policy-text.php:79
 msgid "We use Slack to manage our integration data. Their privacy policy can be found here : https://slack.com/privacy-policy."
 msgstr "Ke správě našich integračních dat používáme Slack. Jejich zásady ochrany osobních údajů najdete zde: https://slack.com/privacy-policy."
+
+#: library/modules/custom-forms/protection/policy-text.php:85
+#: library/modules/polls/protection/policy-text.php:64
+#: library/modules/quizzes/protection/policy-text.php:64
+msgid "Slack. Enabled when you activated and set up Slack on Integrations settings."
+msgstr "Slack. Povoleno při aktivaci a nastavení Slack on Integrations."
+
+#: library/modules/custom-forms/protection/policy-text.php:84
+#: library/modules/polls/protection/policy-text.php:63
+#: library/modules/quizzes/protection/policy-text.php:63
+msgid "Trello. Enabled when you activated and set up Trello on Integrations settings."
+msgstr "Trello. Povoleno, když jste aktivovali a nastavili Trello na nastavení integrace."
+
+#: library/modules/custom-forms/protection/policy-text.php:83
+#: library/modules/polls/protection/policy-text.php:62
+#: library/modules/quizzes/protection/policy-text.php:62
+msgid "Google Drive. Enabled when you activated and set up Google Drive on Integrations settings."
+msgstr "Disk Google. Povoleno, když jste aktivovali a nastavili Disk Google v nastavení integrace."
+
+#: library/modules/custom-forms/protection/policy-text.php:82
+msgid "Campaign Monitor. Enabled when you activated and set up Campaign Monitor on Integrations settings."
+msgstr "Monitor kampaní. Povoleno, když jste aktivovali a nastavili nástroj Sledování kampaně v nastavení Integrace."
+
+#: library/modules/custom-forms/protection/policy-text.php:81
+msgid "Aweber. Enabled when you activated and set up Aweber on Integrations settings."
+msgstr "Aweber. Povoleno, když jste aktivovali a nastavili Aweber na nastavení integrace."
+
+#: library/modules/custom-forms/protection/policy-text.php:80
+msgid "ActiveCampaign. Enabled when you activated and set up ActiveCampaign on Integrations settings."
+msgstr "Aktivní kampaň. Povoleno, když jste aktivovali a nastavili ActiveCampaign v nastavení integrace."
 
 #: library/addon/class-addon-poll-hooks-abstract.php:76
 msgid "Failed to submit poll because of an addon, please check your poll and try again"
@@ -7855,6 +7889,10 @@ msgstr "Kontejner formy"
 msgid "Use Theme Fonts"
 msgstr "Použijte motivová písma"
 
+#: admin/locale.php:135
+msgid "By default this form will inherit the fonts your theme uses. You can overwrite these fonts with custom ones from {{link}}Bunny Fonts{{/link}}."
+msgstr "Ve výchozím nastavení tento formulář zdědí písma, která váš motiv používá. Tato písma můžete přepsat vlastními písmy z písem Google."
+
 #: admin/locale.php:134
 msgid "Fonts"
 msgstr "Písma"
@@ -7954,6 +7992,16 @@ msgstr "Zvyk"
 #: admin/locale.php:12
 msgid "Use Default Colors"
 msgstr "Použijte výchozí barvy"
+
+#. translators: %s: module slug
+#: library/model/class-base-form-model.php:1573
+msgid "Unfortunately this %s has expired."
+msgstr "Platnost tohoto formuláře bohužel vypršela."
+
+#. translators: %s: module slug
+#: library/model/class-base-form-model.php:1561
+msgid "You have reached the maximum allowed submissions for this %s."
+msgstr "Dosáhli jste maximálního povoleného odeslání pro tento formulář."
 
 #: library/class-api.php:60 library/class-api.php:1095
 #: library/class-api.php:1251
@@ -8304,6 +8352,11 @@ msgstr "afrikánština"
 msgid "Arabic"
 msgstr "arabština"
 
+#. translators: %s: module slug
+#: library/model/class-base-form-model.php:1587
+msgid "This %s is not published."
+msgstr "Tento formulář není zveřejněn."
+
 #: library/fields/name.php:83
 msgid "Last Name is required."
 msgstr "Příjmení je povinné."
@@ -8516,6 +8569,10 @@ msgstr "Do zobrazeného vstupního pole vložte tuto hodnotu níže"
 msgid "You will need to enter App Name and Development Slack Workspace."
 msgstr "Budete muset zadat Název aplikace a Pracovní prostor pro vývoj."
 
+#: addons/pro/slack/views/settings/setup-client.php:33
+msgid "Set up Slack to be used by Forminator to communicating with Slack server."
+msgstr "Nastavit Slack, který má Forminator použít ke komunikaci se serverem Slack."
+
 #: addons/pro/slack/views/settings/setup-client.php:29
 msgid "Your Slack account is already authorized. Edit info below to re-authorize."
 msgstr "Váš účet Slack je již autorizován. Upravte informace níže a znovu proveďte autorizaci."
@@ -8547,6 +8604,12 @@ msgstr "Zprávu můžete naformátovat pomocí Slack Flavored Markdown, více in
 #: addons/pro/slack/views/quiz-settings/setup-message.php:22
 msgid "Configure message to be sent."
 msgstr "Nakonfigurujte zprávu k odeslání."
+
+#: addons/pro/slack/views/form-settings/setup-message.php:19
+#: addons/pro/slack/views/poll-settings/setup-message.php:19
+#: addons/pro/slack/views/quiz-settings/setup-message.php:19
+msgid "Set Up Message"
+msgstr "Zpráva o nastavení"
 
 #: addons/pro/slack/views/form-settings/select-type.php:53
 #: addons/pro/slack/views/poll-settings/select-type.php:53
@@ -8709,6 +8772,18 @@ msgstr "Slack integrace"
 #: addons/pro/slack/class-forminator-addon-slack-quiz-hooks.php:227
 msgid "Successfully send data to Slack"
 msgstr "Úspěšně odešlete data do Slacku"
+
+#: addons/pro/slack/class-forminator-addon-slack-form-hooks.php:155
+#: addons/pro/slack/class-forminator-addon-slack-poll-hooks.php:140
+#: addons/pro/slack/class-forminator-addon-slack-quiz-hooks.php:142
+msgid "Message not properly set up."
+msgstr "Zpráva není správně nastavena."
+
+#: addons/pro/slack/class-forminator-addon-slack-form-hooks.php:151
+#: addons/pro/slack/class-forminator-addon-slack-poll-hooks.php:136
+#: addons/pro/slack/class-forminator-addon-slack-quiz-hooks.php:138
+msgid "Target ID not properly set up."
+msgstr "ID cíle není správně nastaveno."
 
 #: addons/pro/campaignmonitor/class-forminator-addon-campaignmonitor.php:450
 msgid "Failed to validate API Key."
@@ -9528,6 +9603,16 @@ msgstr "Pro ochranu proti spamu používáme Akismet Spam. Jejich zásady ochran
 msgid "We use Google reCAPTCHA for spam protection. Their privacy policy can be found here : https://policies.google.com/privacy?hl=en."
 msgstr "Pro ochranu proti spamu používáme Google reCAPTCHA. Jejich zásady ochrany osobních údajů naleznete zde: https://policies.google.com/privacy?hl=cs."
 
+#: library/modules/custom-forms/protection/policy-text.php:79
+#: library/modules/polls/protection/policy-text.php:61
+#: library/modules/quizzes/protection/policy-text.php:61
+msgid "Zapier. Enabled when you activated and set up Webhook on Integrations settings."
+msgstr "Zapier. Povoleno, když jste aktivovali a nastavili Zapier na nastavení integrace."
+
+#: library/modules/custom-forms/protection/policy-text.php:78
+msgid "Mailchimp. Enabled when you activated and set up Mailchimp on Integrations settings."
+msgstr "Mailchimp. Povoleno, když jste aktivovali a nastavili Mailchimp v nastavení integrace."
+
 #: library/modules/custom-forms/protection/policy-text.php:76
 msgid "Google reCAPTCHA. Enabled when you added reCAPTCHA on your forms."
 msgstr "Google reCAPTCHA. Povoleno, když jste do formulářů přidali reCAPTCHA."
@@ -9579,6 +9664,16 @@ msgstr "Jak dlouho vaše údaje uchováváme"
 msgid "When visitors or users submit a form, we capture the <strong>IP Address</strong> for spam protection. We also capture the <strong>email address</strong> and might capture other personal data included in the Form fields."
 msgstr "Když návštěvníci nebo uživatelé odešlou formulář, získáme <strong> IP adresu </strong> pro ochranu proti spamu. Zaznamenáváme také <strong> e-mailovou adresu </strong> a můžeme zachytit další osobní údaje obsažené v polích formuláře."
 
+#: library/modules/custom-forms/protection/policy-text.php:15
+msgid ""
+"By default Forminator captures the <strong>IP Address</strong> for each submission to a Form. Other personal data such as your <strong>name</strong> and <strong>email address</strong> may also be captured,\n"
+"depending on the Form\n"
+"Fields."
+msgstr ""
+"Ve výchozím nastavení Forminator zaznamenává <strong> IP adresu </strong> pro každé odeslání do formuláře. Mohou být také zaznamenány další osobní údaje, jako je vaše <strong> jméno </strong> a <strong> e-mailová adresa </strong>,\n"
+"v závislosti na formuláři\n"
+"Pole."
+
 #: library/modules/custom-forms/protection/policy-text.php:34
 #: library/modules/custom-forms/protection/policy-text.php:54
 #: library/modules/custom-forms/protection/policy-text.php:59
@@ -9597,16 +9692,6 @@ msgstr "Navrhovaný text: "
 #: library/modules/custom-forms/protection/policy-text.php:26
 msgid "Note: In this section you should include any personal data you collected and which form captures personal data to give users more relevant information. You should also include an explanation of why this data is needed. The explanation must note either the legal basis for your data collection and retention of the active consent the user has given."
 msgstr "Poznámka: V této části byste měli uvést veškeré osobní údaje, které jste shromáždili a která forma zachycuje osobní údaje, aby uživatelé měli více relevantních informací. Měli byste také uvést vysvětlení, proč jsou tato data potřebná. Vysvětlení musí vzít v úvahu buď právní základ pro vaše shromažďování údajů a uchování aktivního souhlasu, který uživatel dal."
-
-#: library/modules/custom-forms/protection/policy-text.php:15
-msgid ""
-"By default Forminator captures the <strong>IP Address</strong> for each submission to a Form. Other personal data such as your <strong>name</strong> and <strong>email address</strong> may also be captured,\n"
-"depending on the Form\n"
-"Fields."
-msgstr ""
-"Ve výchozím nastavení Forminator zaznamenává <strong> IP adresu </strong> pro každé odeslání do formuláře. Mohou být také zaznamenány další osobní údaje, jako je vaše <strong> jméno </strong> a <strong> e-mailová adresa </strong>,\n"
-"v závislosti na formuláři\n"
-"Pole."
 
 #: library/modules/custom-forms/protection/policy-text.php:12
 #: library/modules/polls/protection/policy-text.php:12
@@ -9638,6 +9723,11 @@ msgstr "Vlastní formuláře, podmíněné formuláře atd. Vyberte si z naší 
 #: library/modules/custom-forms/loader.php:171
 msgid "Custom Form"
 msgstr "Vlastní formulář"
+
+#. translators: %s: module slug
+#: library/model/class-base-form-model.php:1547
+msgid "Only logged in users can submit this %s."
+msgstr "Tento formulář mohou odeslat pouze přihlášení uživatelé."
 
 #: library/abstracts/abstract-class-front-action.php:1026
 msgid "Form entry saved"
@@ -9680,6 +9770,16 @@ msgstr "Zpráva"
 msgid "Phone Number"
 msgstr "Telefonní číslo"
 
+#: library/modules/custom-forms/form-templates/template-blank.php:23
+#: library/modules/custom-forms/form-templates/template-contact-form.php:23
+#: library/modules/custom-forms/form-templates/template-login.php:23
+#: library/modules/custom-forms/form-templates/template-newsletter.php:23
+#: library/modules/custom-forms/form-templates/template-post.php:23
+#: library/modules/custom-forms/form-templates/template-quote.php:23
+#: library/modules/custom-forms/form-templates/template-registration.php:23
+msgid "A simple contact form for your users to contact you"
+msgstr "Jednoduchý kontaktní formulář, aby vás uživatelé mohli kontaktovat"
+
 #: library/modules/custom-forms/form-templates/template-blank.php:52
 #: library/modules/custom-forms/form-templates/template-contact-form.php:120
 #: library/modules/custom-forms/form-templates/template-leads.php:118
@@ -9691,16 +9791,6 @@ msgstr "Telefonní číslo"
 #: library/modules/custom-forms/front/front-action.php:1465
 msgid "Error: Your form is not valid, please fix the errors!"
 msgstr "Chyba: Váš formulář není platný, prosím opravte chyby!"
-
-#: library/modules/custom-forms/form-templates/template-blank.php:23
-#: library/modules/custom-forms/form-templates/template-contact-form.php:23
-#: library/modules/custom-forms/form-templates/template-login.php:23
-#: library/modules/custom-forms/form-templates/template-newsletter.php:23
-#: library/modules/custom-forms/form-templates/template-post.php:23
-#: library/modules/custom-forms/form-templates/template-quote.php:23
-#: library/modules/custom-forms/form-templates/template-registration.php:23
-msgid "A simple contact form for your users to contact you"
-msgstr "Jednoduchý kontaktní formulář, aby vás uživatelé mohli kontaktovat"
 
 #: admin/classes/class-admin-l10n.php:93
 #: admin/views/dashboard/widgets/widget-cform.php:7
@@ -11248,6 +11338,23 @@ msgstr "Při zpracování formuláře došlo k chybě. Prosím zkuste to znovu"
 msgid "Unlock this as part of a WPMU DEV Membership"
 msgstr "Odemkněte to jako součást členství WPMU DEV"
 
+#: library/fields/website.php:227
+msgid "This field is required. Please input a valid URL"
+msgstr "Toto pole je povinné. Zadejte platnou adresu URL"
+
+#: library/fields/website.php:73
+msgid "E.g. http://www.example.com"
+msgstr "Např. http://www.example.com"
+
+#: admin/locale.php:1011 library/fields/website.php:61
+#: library/fields/website.php:72
+msgid "Website"
+msgstr "webová stránka"
+
+#: library/fields/upload.php:246 library/fields/upload.php:308
+msgid "This field is required. Please upload a file."
+msgstr "Toto pole je povinné. Nahrajte prosím soubor."
+
 #: addons/pro/activecampaign/class-forminator-addon-activecampaign-form-settings.php:133
 #: addons/pro/activecampaign/class-forminator-addon-activecampaign-form-settings.php:265
 #: addons/pro/activecampaign/class-forminator-addon-activecampaign-form-settings.php:443
@@ -11298,23 +11405,6 @@ msgstr "Odemkněte to jako součást členství WPMU DEV"
 #: admin/locale.php:1169 library/helpers/helper-core.php:422
 msgid "Next"
 msgstr "další"
-
-#: library/fields/website.php:227
-msgid "This field is required. Please input a valid URL"
-msgstr "Toto pole je povinné. Zadejte platnou adresu URL"
-
-#: library/fields/website.php:73
-msgid "E.g. http://www.example.com"
-msgstr "Např. http://www.example.com"
-
-#: admin/locale.php:1011 library/fields/website.php:61
-#: library/fields/website.php:72
-msgid "Website"
-msgstr "webová stránka"
-
-#: library/fields/upload.php:246 library/fields/upload.php:308
-msgid "This field is required. Please upload a file."
-msgstr "Toto pole je povinné. Nahrajte prosím soubor."
 
 #: admin/locale.php:1162 library/fields/upload.php:82
 msgid "Upload file"
@@ -12156,6 +12246,28 @@ msgstr "Hotovo"
 msgid "Currency"
 msgstr "Měna"
 
+#: addons/pro/activecampaign/class-forminator-addon-activecampaign-form-settings.php:640
+#: addons/pro/activecampaign/class-forminator-addon-activecampaign-quiz-settings.php:669
+#: addons/pro/activecampaign/class-forminator-addon-activecampaign.php:348
+#: addons/pro/aweber/class-forminator-addon-aweber-form-settings.php:612
+#: addons/pro/aweber/class-forminator-addon-aweber-quiz-settings.php:621
+#: addons/pro/campaignmonitor/class-forminator-addon-campaignmonitor-form-settings.php:584
+#: addons/pro/campaignmonitor/class-forminator-addon-campaignmonitor-quiz-settings.php:606
+#: addons/pro/campaignmonitor/class-forminator-addon-campaignmonitor.php:362
+#: addons/pro/mailchimp/class-forminator-addon-mailchimp-form-settings.php:865
+#: addons/pro/mailchimp/class-forminator-addon-mailchimp-quiz-settings.php:376
+#: addons/pro/mailchimp/class-forminator-addon-mailchimp.php:664
+#: addons/pro/trello/class-forminator-addon-trello-form-settings.php:643
+#: addons/pro/trello/class-forminator-addon-trello-poll-settings.php:650
+#: addons/pro/trello/class-forminator-addon-trello-quiz-settings.php:656
+#: addons/pro/webhook/class-forminator-addon-webhook-form-settings.php:154
+#: addons/pro/webhook/class-forminator-addon-webhook-poll-settings.php:141
+#: addons/pro/webhook/class-forminator-addon-webhook-quiz-settings.php:141
+#: admin/classes/class-admin-l10n.php:102
+#: library/modules/custom-forms/admin/admin-loader.php:139
+msgid "Save"
+msgstr "Uložit"
+
 #: admin/locale.php:393 admin/views/settings/tab-recaptcha.php:352
 msgid "Language"
 msgstr "Jazyk"
@@ -12183,28 +12295,6 @@ msgstr "Vytvořte svým návštěvníkům zábavné nebo náročné kvízy, kter
 #: admin/views/quiz/entries/content-leads.php:386
 msgid "<strong>Quiz Result:</strong> %s"
 msgstr "<strong> Výsledek kvízu: </strong>%s"
-
-#: addons/pro/activecampaign/class-forminator-addon-activecampaign-form-settings.php:640
-#: addons/pro/activecampaign/class-forminator-addon-activecampaign-quiz-settings.php:669
-#: addons/pro/activecampaign/class-forminator-addon-activecampaign.php:348
-#: addons/pro/aweber/class-forminator-addon-aweber-form-settings.php:612
-#: addons/pro/aweber/class-forminator-addon-aweber-quiz-settings.php:621
-#: addons/pro/campaignmonitor/class-forminator-addon-campaignmonitor-form-settings.php:584
-#: addons/pro/campaignmonitor/class-forminator-addon-campaignmonitor-quiz-settings.php:606
-#: addons/pro/campaignmonitor/class-forminator-addon-campaignmonitor.php:362
-#: addons/pro/mailchimp/class-forminator-addon-mailchimp-form-settings.php:865
-#: addons/pro/mailchimp/class-forminator-addon-mailchimp-quiz-settings.php:376
-#: addons/pro/mailchimp/class-forminator-addon-mailchimp.php:664
-#: addons/pro/trello/class-forminator-addon-trello-form-settings.php:643
-#: addons/pro/trello/class-forminator-addon-trello-poll-settings.php:650
-#: addons/pro/trello/class-forminator-addon-trello-quiz-settings.php:656
-#: addons/pro/webhook/class-forminator-addon-webhook-form-settings.php:154
-#: addons/pro/webhook/class-forminator-addon-webhook-poll-settings.php:141
-#: addons/pro/webhook/class-forminator-addon-webhook-quiz-settings.php:141
-#: admin/classes/class-admin-l10n.php:102
-#: library/modules/custom-forms/admin/admin-loader.php:139
-msgid "Save"
-msgstr "Uložit"
 
 #: addons/pro/activecampaign/class-forminator-addon-activecampaign-quiz-settings.php:347
 #: addons/pro/aweber/class-forminator-addon-aweber-quiz-settings.php:334
@@ -13463,6 +13553,12 @@ msgstr "Zadejte prosím platnou adresu URL Webhooku."
 msgid "Webhook URL"
 msgstr "URL webhooku"
 
+#: addons/pro/webhook/class-forminator-addon-webhook-form-settings.php:160
+#: addons/pro/webhook/views/poll-settings/setup-webhook.php:20
+#: addons/pro/webhook/views/quiz-settings/setup-webhook.php:20
+msgid "Set Up Webhook"
+msgstr "Nastavit Webhook"
+
 #: addons/pro/webhook/class-forminator-addon-webhook-form-settings.php:121
 #: addons/pro/webhook/class-forminator-addon-webhook-poll-settings.php:118
 #: addons/pro/webhook/class-forminator-addon-webhook-quiz-settings.php:118
@@ -13478,6 +13574,12 @@ msgstr "Vytvořte prosím název této integrace Zapier"
 #: addons/pro/webhook/class-forminator-addon-webhook-quiz-hooks.php:232
 msgid "Successfully send data to Webhook"
 msgstr "Úspěšně odešlete data společnosti Zapier"
+
+#: addons/pro/webhook/class-forminator-addon-webhook-form-hooks.php:156
+#: addons/pro/webhook/class-forminator-addon-webhook-poll-hooks.php:160
+#: addons/pro/webhook/class-forminator-addon-webhook-quiz-hooks.php:160
+msgid "Webhook URL is not properly set up"
+msgstr "Adresa URL webhooku není správně nastavena"
 
 #: addons/pro/webhook/class-forminator-addon-webhook-form-hooks.php:36
 #: addons/pro/webhook/class-forminator-addon-webhook-poll-hooks.php:42
@@ -13876,6 +13978,11 @@ msgstr "Text GDPR"
 msgid "Enable GDPR"
 msgstr "Povolit GDPR"
 
+#: addons/pro/mailchimp/class-forminator-addon-mailchimp-form-hooks.php:829
+#: addons/pro/mailchimp/class-forminator-addon-mailchimp-quiz-hooks.php:762
+msgid "Data received from Mailchimp"
+msgstr "Data přijatá od Mailchimpu"
+
 #: addons/pro/aweber/views/form-settings/map-fields.php:87
 #: addons/pro/campaignmonitor/views/quiz-settings/map-fields.php:94
 #: addons/pro/hubspot/views/form-settings/create-contact.php:153
@@ -13898,11 +14005,6 @@ msgstr "Povolit GDPR"
 #: library/addon/class-addon-settings-abstract.php:21
 msgid "None"
 msgstr "Žádný"
-
-#: addons/pro/mailchimp/class-forminator-addon-mailchimp-form-hooks.php:829
-#: addons/pro/mailchimp/class-forminator-addon-mailchimp-quiz-hooks.php:762
-msgid "Data received from Mailchimp"
-msgstr "Data přijatá od Mailchimpu"
 
 #: addons/pro/mailchimp/class-forminator-addon-mailchimp-form-hooks.php:822
 #: addons/pro/mailchimp/class-forminator-addon-mailchimp-quiz-hooks.php:755
@@ -13948,6 +14050,16 @@ msgstr "Povinné pole%1$s není vyplněno uživatelem"
 msgid "Required Field %1$s is not filled by user"
 msgstr "Povinné pole%1$s není uživatelem vyplněno"
 
+#. translators: ...
+#: addons/pro/mailchimp/class-forminator-addon-mailchimp-form-hooks.php:376
+#: addons/pro/mailchimp/class-forminator-addon-mailchimp-form-hooks.php:409
+#: addons/pro/mailchimp/class-forminator-addon-mailchimp-form-hooks.php:424
+#: addons/pro/mailchimp/class-forminator-addon-mailchimp-quiz-hooks.php:357
+#: addons/pro/mailchimp/class-forminator-addon-mailchimp-quiz-hooks.php:390
+#: addons/pro/mailchimp/class-forminator-addon-mailchimp-quiz-hooks.php:405
+msgid "Required Field %1$s not mapped yet to Forminator Form Field, Please check your Mailchimp Configuration on Form Settings"
+msgstr "Povinné pole%1$s ještě není namapováno na pole formuláře Forminator, zkontrolujte svou konfiguraci Mailchimp v nastavení formuláře"
+
 #: addons/pro/mailchimp/class-forminator-addon-mailchimp-form-hooks.php:362
 #: addons/pro/mailchimp/class-forminator-addon-mailchimp-quiz-hooks.php:343
 msgid "Forminator Addon Mailchimp was not sending subscriber to mailchimp as GDPR field is not checked on input"
@@ -13976,16 +14088,6 @@ msgstr "Kvíz"
 #: addons/pro/gutenberg/library/blocks/class-forminator-gfblock-quizzes.php:175
 msgid "Customize quiz"
 msgstr "Přizpůsobte si kvíz"
-
-#. translators: ...
-#: addons/pro/mailchimp/class-forminator-addon-mailchimp-form-hooks.php:376
-#: addons/pro/mailchimp/class-forminator-addon-mailchimp-form-hooks.php:409
-#: addons/pro/mailchimp/class-forminator-addon-mailchimp-form-hooks.php:424
-#: addons/pro/mailchimp/class-forminator-addon-mailchimp-quiz-hooks.php:357
-#: addons/pro/mailchimp/class-forminator-addon-mailchimp-quiz-hooks.php:390
-#: addons/pro/mailchimp/class-forminator-addon-mailchimp-quiz-hooks.php:405
-msgid "Required Field %1$s not mapped yet to Forminator Form Field, Please check your Mailchimp Configuration on Form Settings"
-msgstr "Povinné pole%1$s ještě není namapováno na pole formuláře Forminator, zkontrolujte svou konfiguraci Mailchimp v nastavení formuláře"
 
 #: addons/pro/gutenberg/library/blocks/class-forminator-gfblock-quizzes.php:150
 msgid "Select a quiz"
@@ -14292,6 +14394,10 @@ msgstr "Chcete-li získat přihlašovací údaje rozhraní API Monitoru kampaní
 msgid "Campaign Monitor Integrations currently connected to API Client: "
 msgstr "Integrace Monitoru kampaně aktuálně připojené k klientovi API: "
 
+#: addons/pro/campaignmonitor/views/settings/setup-api.php:27
+msgid "Set Up Campaign Monitor API Access."
+msgstr "Nastavte přístup k rozhraní API nástroje Sledování kampaně."
+
 #: addons/pro/campaignmonitor/views/form-settings/setup-options.php:106
 #: addons/pro/campaignmonitor/views/quiz-settings/setup-options.php:100
 msgid "Consent to Track"
@@ -14307,6 +14413,11 @@ msgstr "Restartujte automatické odpovědi na základě předplatného"
 msgid "Re-subscribe"
 msgstr "Znovu se přihlásit k odběru"
 
+#: addons/pro/campaignmonitor/views/form-settings/setup-options.php:26
+#: addons/pro/campaignmonitor/views/quiz-settings/setup-options.php:23
+msgid "Configure additional options for Campaign Monitor integration."
+msgstr "Nakonfigurujte další možnosti pro integraci Monitoru kampaní."
+
 #: addons/pro/campaignmonitor/views/form-settings/setup-options.php:119
 #: addons/pro/campaignmonitor/views/quiz-settings/setup-options.php:113
 msgid "Whether or not the subscriber has consented to having their email opens and clicks tracked. This value applies to all subscribers with the same email address, within the same client. If an email address has no value stored for Consent to Track, it is assumed that the subscriber has given consent. You can find more information "
@@ -14321,11 +14432,6 @@ msgstr "Ve výchozím nastavení předplatitelé, kteří se znovu přihlásili 
 #: addons/pro/campaignmonitor/views/quiz-settings/setup-options.php:72
 msgid "If the subscriber is in an inactive state or has previously been unsubscribed or added to the suppression list and you enabled Re-subscribe, they will be re-added to the list. Therefore, this options should be used with caution and only where suitable. If Re-subscribe is disabled, the subscriber will not be re-added to the active list."
 msgstr "Pokud je předplatitel v neaktivním stavu nebo byl dříve odhlášen nebo přidán do seznamu potlačení a vy jste povolili Opětovné přihlášení, bude znovu přidán do seznamu. Proto by tyto možnosti měly být používány s opatrností a pouze tam, kde je to vhodné. Pokud je opětovné přihlášení zakázáno, nebude účastník znovu přidán do aktivního seznamu."
-
-#: addons/pro/campaignmonitor/views/form-settings/setup-options.php:26
-#: addons/pro/campaignmonitor/views/quiz-settings/setup-options.php:23
-msgid "Configure additional options for Campaign Monitor integration."
-msgstr "Nakonfigurujte další možnosti pro integraci Monitoru kampaní."
 
 #: addons/pro/campaignmonitor/views/form-settings/setup-list.php:23
 #: addons/pro/campaignmonitor/views/quiz-settings/setup-list.php:20
@@ -14489,17 +14595,17 @@ msgstr "tady"
 msgid "Use 20 or fewer characters to label subscribers based on how they signed up. Find complete article %1$shere%2$s."
 msgstr "Použijte 20 nebo méně znaků k označení předplatitelů podle toho, jak se přihlásili. Najít celý článek%1$shere%2$s."
 
-#: addons/pro/aweber/views/form-settings/setup-options.php:124
-#: addons/pro/aweber/views/quiz-settings/setup-options.php:119
-msgid "Available fields value or free text can be used as tags. Have a campaign that’s triggered when a subscriber is tagged? Enter the appropriate tag to add the subscriber to the campaign, and they will immediately begin receiving your messages. More info about AWeber subscriber tags can be found %1$shere%2$s."
-msgstr "Jako značky lze použít hodnotu dostupných polí nebo volný text. Máte kampaň, která se spustí, když je odběratel označen? Zadejte příslušnou značku, abyste přidali účastníka do kampaně, a ten okamžitě začne přijímat vaše zprávy. Další informace o předplatitelských značkách AWeber najdete%1$shere%2$s."
-
 #: addons/pro/aweber/views/form-settings/setup-options.php:54
 #: addons/pro/aweber/views/form-settings/setup-options.php:60
 #: addons/pro/aweber/views/quiz-settings/setup-options.php:54
 #: addons/pro/aweber/views/quiz-settings/setup-options.php:59
 msgid "Ad Tracking"
 msgstr "Sledování reklam"
+
+#: addons/pro/aweber/views/form-settings/setup-options.php:124
+#: addons/pro/aweber/views/quiz-settings/setup-options.php:119
+msgid "Available fields value or free text can be used as tags. Have a campaign that’s triggered when a subscriber is tagged? Enter the appropriate tag to add the subscriber to the campaign, and they will immediately begin receiving your messages. More info about AWeber subscriber tags can be found %1$shere%2$s."
+msgstr "Jako značky lze použít hodnotu dostupných polí nebo volný text. Máte kampaň, která se spustí, když je odběratel označen? Zadejte příslušnou značku, abyste přidali účastníka do kampaně, a ten okamžitě začne přijímat vaše zprávy. Další informace o předplatitelských značkách AWeber najdete%1$shere%2$s."
 
 #: addons/pro/aweber/views/form-settings/setup-options.php:23
 #: addons/pro/aweber/views/quiz-settings/setup-options.php:23
@@ -14670,6 +14776,10 @@ msgstr "Zadejte klíč API%1$s"
 msgid "Enter %1$s API URL"
 msgstr "Zadejte adresu URL API%1$s"
 
+#: addons/pro/activecampaign/views/settings/setup-api.php:26
+msgid "Set Up ActiveCampaign API Access."
+msgstr "Nastavte přístup k rozhraní ActiveCampaign API."
+
 #. translators: %s: Addon name
 #. translators: ...
 #: addons/pro/activecampaign/views/settings/setup-api.php:22
@@ -14714,6 +14824,15 @@ msgstr ""
 #: addons/pro/activecampaign/views/quiz-settings/setup-options.php:161
 msgid "Send last broadcast campaign"
 msgstr "Odeslat poslední vysílanou kampaň"
+
+#: addons/pro/activecampaign/views/form-settings/setup-options.php:141
+#: addons/pro/activecampaign/views/quiz-settings/setup-options.php:141
+msgid ""
+"When the instant responders option is enabled, ActiveCampaign will send any instant responders set up when the contact is added to the list.\n"
+"\t\t\t\t\t\tThis option is not available to users on a free trial."
+msgstr ""
+"Když je povolena možnost okamžitých respondentů, ActiveCampaign odešle jakékoli nastavení okamžitých respondentů, když je kontakt přidán do seznamu.\n"
+"Tato možnost není k dispozici uživatelům v bezplatné zkušební verzi."
 
 #: addons/pro/activecampaign/views/form-settings/setup-options.php:134
 #: addons/pro/activecampaign/views/quiz-settings/setup-options.php:134
@@ -14812,21 +14931,6 @@ msgstr "Pole formátoru"
 msgid "ActiveCampaign Field"
 msgstr "Pole ActiveCampaign"
 
-#: addons/pro/activecampaign/views/form-settings/map-fields.php:24
-msgid "Match up your form fields with your campaign fields to make sure we're sending data to the right place."
-msgstr "Porovnejte pole formulářů s poli kampaně a ujistěte se, že odesíláme data na správné místo."
-
-#: addons/pro/activecampaign/views/form-settings/map-fields.php:20
-#: addons/pro/activecampaign/views/quiz-settings/map-fields.php:20
-#: addons/pro/aweber/views/form-settings/map-fields.php:19
-#: addons/pro/aweber/views/quiz-settings/map-fields.php:20
-#: addons/pro/campaignmonitor/views/form-settings/map-fields.php:20
-#: addons/pro/campaignmonitor/views/quiz-settings/map-fields.php:20
-#: addons/pro/mailchimp/class-forminator-addon-mailchimp-form-settings.php:880
-#: addons/pro/mailchimp/class-forminator-addon-mailchimp-quiz-settings.php:391
-msgid "Assign Fields"
-msgstr "Přiřadit pole"
-
 #: addons/pro/activecampaign/views/form-settings/pick-name.php:51
 #: addons/pro/activecampaign/views/quiz-settings/pick-name.php:51
 #: addons/pro/aweber/views/form-settings/pick-name.php:51
@@ -14847,6 +14951,39 @@ msgstr "Přiřadit pole"
 #: addons/pro/webhook/views/quiz-settings/setup-webhook.php:55
 msgid "Friendly Name"
 msgstr "Přátelské jméno"
+
+#: addons/pro/activecampaign/views/form-settings/pick-name.php:17
+#: addons/pro/activecampaign/views/quiz-settings/pick-name.php:17
+#: addons/pro/aweber/views/form-settings/pick-name.php:17
+#: addons/pro/aweber/views/quiz-settings/pick-name.php:17
+#: addons/pro/campaignmonitor/views/form-settings/pick-name.php:18
+#: addons/pro/campaignmonitor/views/quiz-settings/pick-name.php:17
+#: addons/pro/googlesheet/views/form-settings/pick-name.php:19
+#: addons/pro/googlesheet/views/poll-settings/pick-name.php:19
+#: addons/pro/googlesheet/views/quiz-settings/pick-name.php:19
+#: addons/pro/slack/views/form-settings/pick-name.php:18
+#: addons/pro/slack/views/poll-settings/pick-name.php:18
+#: addons/pro/slack/views/quiz-settings/pick-name.php:18
+#: addons/pro/trello/views/form-settings/setup-name.php:17
+#: addons/pro/trello/views/poll-settings/setup-name.php:18
+#: addons/pro/trello/views/quiz-settings/setup-name.php:17
+msgid "Set Up Name"
+msgstr "Název nastavení"
+
+#: addons/pro/activecampaign/views/form-settings/map-fields.php:24
+msgid "Match up your form fields with your campaign fields to make sure we're sending data to the right place."
+msgstr "Porovnejte pole formulářů s poli kampaně a ujistěte se, že odesíláme data na správné místo."
+
+#: addons/pro/activecampaign/views/form-settings/map-fields.php:20
+#: addons/pro/activecampaign/views/quiz-settings/map-fields.php:20
+#: addons/pro/aweber/views/form-settings/map-fields.php:19
+#: addons/pro/aweber/views/quiz-settings/map-fields.php:20
+#: addons/pro/campaignmonitor/views/form-settings/map-fields.php:20
+#: addons/pro/campaignmonitor/views/quiz-settings/map-fields.php:20
+#: addons/pro/mailchimp/class-forminator-addon-mailchimp-form-settings.php:880
+#: addons/pro/mailchimp/class-forminator-addon-mailchimp-quiz-settings.php:391
+msgid "Assign Fields"
+msgstr "Přiřadit pole"
 
 #: addons/pro/activecampaign/lib/class-forminator-addon-activecampaign-wp-api.php:430
 msgid "Required id parameter not set for contact_delete."
@@ -14931,10 +15068,6 @@ msgstr " ActiveCampaign není připojen"
 msgid "ActiveCampaign is not active"
 msgstr "ActiveCampaign není aktivní"
 
-#: addons/pro/activecampaign/class-forminator-addon-activecampaign.php:50
-msgid "Sorry but we failed to deactivate Activecampaign Integration, please try again"
-msgstr "Litujeme, ale nepodařilo se nám deaktivovat integraci aktivní kampaně, zkuste to znovu"
-
 #: addons/pro/activecampaign/class-forminator-addon-activecampaign.php:52
 #: addons/pro/aweber/class-forminator-addon-aweber.php:54
 #: addons/pro/campaignmonitor/class-forminator-addon-campaignmonitor.php:45
@@ -14947,6 +15080,10 @@ msgstr "Litujeme, ale nepodařilo se nám deaktivovat integraci aktivní kampan�
 #: samples/forminator-simple-addon-plugin/forminator-addon-simple.php:27
 msgid "Sorry, we failed to update settings, please check your form and try again"
 msgstr "Litujeme, nastavení se nám nepodařilo aktualizovat, zkontrolujte prosím formulář a zkuste to znovu"
+
+#: addons/pro/activecampaign/class-forminator-addon-activecampaign.php:50
+msgid "Sorry but we failed to deactivate Activecampaign Integration, please try again"
+msgstr "Litujeme, ale nepodařilo se nám deaktivovat integraci aktivní kampaně, zkuste to znovu"
 
 #: addons/pro/activecampaign/class-forminator-addon-activecampaign.php:49
 msgid "Sorry but we failed to activate Activecampaign Integration, don't hesitate to contact us"
@@ -14974,19 +15111,6 @@ msgstr "Úspěšně připojeno k vašemu formuláři"
 #: addons/pro/activecampaign/class-forminator-addon-activecampaign-form-settings.php:598
 msgid "Please pick valid ActiveCampaign Form"
 msgstr "Vyberte prosím platný formulář ActiveCampaign"
-
-#. translators: %s: title
-#. translators: ...
-#: addons/pro/activecampaign/class-forminator-addon-activecampaign-form-settings.php:408
-#: addons/pro/activecampaign/class-forminator-addon-activecampaign-quiz-settings.php:437
-#: addons/pro/aweber/class-forminator-addon-aweber-form-settings.php:404
-#: addons/pro/aweber/class-forminator-addon-aweber-quiz-settings.php:413
-#: addons/pro/campaignmonitor/class-forminator-addon-campaignmonitor-form-settings.php:402
-#: addons/pro/campaignmonitor/class-forminator-addon-campaignmonitor-quiz-settings.php:424
-#: addons/pro/hubspot/class-forminator-addon-hubspot-form-settings.php:159
-#: addons/pro/hubspot/class-forminator-addon-hubspot-quiz-settings.php:181
-msgid "Please assign valid field for %s"
-msgstr "Přiřaďte prosím platné pole pro%s"
 
 #: addons/pro/activecampaign/class-forminator-addon-activecampaign-form-settings.php:393
 #: addons/pro/activecampaign/class-forminator-addon-activecampaign-quiz-settings.php:422
@@ -15020,28 +15144,18 @@ msgstr "Ve vašem účtu ActiveCampaign nebyly nalezeny žádné seznamy. Vytvo�
 msgid "Deactivate this ActiveCampaign Integration from this Form."
 msgstr "Deaktivujte tuto integraci ActiveCampaign z tohoto formuláře."
 
-#: addons/pro/googlesheet/class-forminator-addon-googlesheet.php:247
-#: addons/pro/googlesheet/class-forminator-addon-googlesheet.php:371
-#: addons/pro/hubspot/class-forminator-addon-hubspot.php:271
-#: addons/pro/slack/class-forminator-addon-slack.php:401
-#: addons/pro/trello/class-forminator-addon-trello.php:449
-msgid "DISCONNECT"
-msgstr "ODPOJIT"
-
-#: addons/pro/activecampaign/class-forminator-addon-activecampaign-form-hooks.php:453
-#: addons/pro/activecampaign/class-forminator-addon-activecampaign-quiz-hooks.php:482
-msgid "ActiveCampaign Info"
-msgstr "Informace o aktivní kampani"
-
-#: addons/pro/activecampaign/class-forminator-addon-activecampaign-form-hooks.php:431
-#: addons/pro/activecampaign/class-forminator-addon-activecampaign-quiz-hooks.php:460
-msgid "Data received from ActiveCampaign"
-msgstr "Data přijatá z ActiveCampaign"
-
-#: addons/pro/activecampaign/class-forminator-addon-activecampaign-form-hooks.php:424
-#: addons/pro/activecampaign/class-forminator-addon-activecampaign-quiz-hooks.php:453
-msgid "Data sent to ActiveCampaign"
-msgstr "Data odeslána do ActiveCampaign"
+#. translators: %s: title
+#. translators: ...
+#: addons/pro/activecampaign/class-forminator-addon-activecampaign-form-settings.php:408
+#: addons/pro/activecampaign/class-forminator-addon-activecampaign-quiz-settings.php:437
+#: addons/pro/aweber/class-forminator-addon-aweber-form-settings.php:404
+#: addons/pro/aweber/class-forminator-addon-aweber-quiz-settings.php:413
+#: addons/pro/campaignmonitor/class-forminator-addon-campaignmonitor-form-settings.php:402
+#: addons/pro/campaignmonitor/class-forminator-addon-campaignmonitor-quiz-settings.php:424
+#: addons/pro/hubspot/class-forminator-addon-hubspot-form-settings.php:159
+#: addons/pro/hubspot/class-forminator-addon-hubspot-quiz-settings.php:181
+msgid "Please assign valid field for %s"
+msgstr "Přiřaďte prosím platné pole pro%s"
 
 #: addons/pro/activecampaign/class-forminator-addon-activecampaign-form-settings.php:352
 #: addons/pro/activecampaign/class-forminator-addon-activecampaign-quiz-settings.php:381
@@ -15088,6 +15202,14 @@ msgstr "Jméno"
 msgid "Please pick valid list"
 msgstr "Vyberte platný seznam"
 
+#: addons/pro/googlesheet/class-forminator-addon-googlesheet.php:247
+#: addons/pro/googlesheet/class-forminator-addon-googlesheet.php:371
+#: addons/pro/hubspot/class-forminator-addon-hubspot.php:271
+#: addons/pro/slack/class-forminator-addon-slack.php:401
+#: addons/pro/trello/class-forminator-addon-trello.php:449
+msgid "DISCONNECT"
+msgstr "ODPOJIT"
+
 #: addons/pro/activecampaign/class-forminator-addon-activecampaign-form-settings.php:105
 #: addons/pro/activecampaign/class-forminator-addon-activecampaign-quiz-settings.php:105
 #: addons/pro/aweber/class-forminator-addon-aweber-form-settings.php:100
@@ -15106,25 +15228,20 @@ msgstr "Vyberte platný seznam"
 msgid "Please pick valid name"
 msgstr "Vyberte prosím platné jméno"
 
-#: addons/pro/activecampaign/class-forminator-addon-activecampaign-form-hooks.php:417
-#: addons/pro/activecampaign/class-forminator-addon-activecampaign-quiz-hooks.php:446
-#: addons/pro/activecampaign/views/settings/setup-api.php:57
-#: addons/pro/aweber/class-forminator-addon-aweber-form-hooks.php:591
-#: addons/pro/aweber/class-forminator-addon-aweber-quiz-hooks.php:620
-#: addons/pro/campaignmonitor/class-forminator-addon-campaignmonitor-form-hooks.php:384
-#: addons/pro/campaignmonitor/class-forminator-addon-campaignmonitor-quiz-hooks.php:404
-#: addons/pro/hubspot/class-forminator-addon-hubspot-form-hooks.php:431
-#: addons/pro/hubspot/class-forminator-addon-hubspot-quiz-hooks.php:437
-#: addons/pro/mailchimp/class-forminator-addon-mailchimp-form-hooks.php:815
-#: addons/pro/mailchimp/class-forminator-addon-mailchimp-quiz-hooks.php:748
-#: addons/pro/slack/class-forminator-addon-slack-form-hooks.php:456
-#: addons/pro/slack/class-forminator-addon-slack-quiz-hooks.php:677
-#: addons/pro/trello/class-forminator-addon-trello-form-hooks.php:565
-#: addons/pro/trello/class-forminator-addon-trello-quiz-hooks.php:687
-#: addons/pro/webhook/class-forminator-addon-webhook-form-hooks.php:384
-#: addons/pro/webhook/class-forminator-addon-webhook-quiz-hooks.php:594
-msgid "API URL"
-msgstr "URL API"
+#: addons/pro/activecampaign/class-forminator-addon-activecampaign-form-hooks.php:453
+#: addons/pro/activecampaign/class-forminator-addon-activecampaign-quiz-hooks.php:482
+msgid "ActiveCampaign Info"
+msgstr "Informace o aktivní kampani"
+
+#: addons/pro/activecampaign/class-forminator-addon-activecampaign-form-hooks.php:431
+#: addons/pro/activecampaign/class-forminator-addon-activecampaign-quiz-hooks.php:460
+msgid "Data received from ActiveCampaign"
+msgstr "Data přijatá z ActiveCampaign"
+
+#: addons/pro/activecampaign/class-forminator-addon-activecampaign-form-hooks.php:424
+#: addons/pro/activecampaign/class-forminator-addon-activecampaign-quiz-hooks.php:453
+msgid "Data sent to ActiveCampaign"
+msgstr "Data odeslána do ActiveCampaign"
 
 #: addons/pro/activecampaign/class-forminator-addon-activecampaign-form-hooks.php:401
 #: addons/pro/activecampaign/class-forminator-addon-activecampaign-quiz-hooks.php:430
@@ -15135,17 +15252,6 @@ msgstr "Odesláno do aktivní kampaně"
 #: addons/pro/activecampaign/class-forminator-addon-activecampaign-quiz-hooks.php:415
 msgid "ActiveCampaign Integration"
 msgstr "Integrace ActiveCampaign"
-
-#: addons/pro/activecampaign/class-forminator-addon-activecampaign-form-hooks.php:282
-#: addons/pro/activecampaign/class-forminator-addon-activecampaign-quiz-hooks.php:311
-msgid "Successfully send data to ActiveCampaign"
-msgstr "Úspěšně odesílejte data do ActiveCampaign"
-
-#. translators: ...
-#: addons/pro/hubspot/class-forminator-addon-hubspot-form-hooks.php:162
-#: addons/pro/hubspot/class-forminator-addon-hubspot-quiz-hooks.php:175
-msgid "Email on element %1$s not found or not filled on submitted data."
-msgstr "E-mail na prvku %1$s nebyl nalezen nebo není vyplněn na odeslaných datech."
 
 #: addons/pro/activecampaign/class-forminator-addon-activecampaign-form-settings.php:185
 #: addons/pro/activecampaign/class-forminator-addon-activecampaign-form-settings.php:319
@@ -15193,6 +15299,26 @@ msgstr "E-mail na prvku %1$s nebyl nalezen nebo není vyplněn na odeslaných da
 msgid "Please pick valid connection"
 msgstr "Vyberte platné připojení"
 
+#: addons/pro/activecampaign/class-forminator-addon-activecampaign-form-hooks.php:417
+#: addons/pro/activecampaign/class-forminator-addon-activecampaign-quiz-hooks.php:446
+#: addons/pro/activecampaign/views/settings/setup-api.php:57
+#: addons/pro/aweber/class-forminator-addon-aweber-form-hooks.php:591
+#: addons/pro/aweber/class-forminator-addon-aweber-quiz-hooks.php:620
+#: addons/pro/campaignmonitor/class-forminator-addon-campaignmonitor-form-hooks.php:384
+#: addons/pro/campaignmonitor/class-forminator-addon-campaignmonitor-quiz-hooks.php:404
+#: addons/pro/hubspot/class-forminator-addon-hubspot-form-hooks.php:431
+#: addons/pro/hubspot/class-forminator-addon-hubspot-quiz-hooks.php:437
+#: addons/pro/mailchimp/class-forminator-addon-mailchimp-form-hooks.php:815
+#: addons/pro/mailchimp/class-forminator-addon-mailchimp-quiz-hooks.php:748
+#: addons/pro/slack/class-forminator-addon-slack-form-hooks.php:456
+#: addons/pro/slack/class-forminator-addon-slack-quiz-hooks.php:677
+#: addons/pro/trello/class-forminator-addon-trello-form-hooks.php:565
+#: addons/pro/trello/class-forminator-addon-trello-quiz-hooks.php:687
+#: addons/pro/webhook/class-forminator-addon-webhook-form-hooks.php:384
+#: addons/pro/webhook/class-forminator-addon-webhook-quiz-hooks.php:594
+msgid "API URL"
+msgstr "URL API"
+
 #: addons/pro/activecampaign/class-forminator-addon-activecampaign-form-hooks.php:408
 #: addons/pro/activecampaign/class-forminator-addon-activecampaign-quiz-hooks.php:437
 #: addons/pro/aweber/class-forminator-addon-aweber-form-hooks.php:582
@@ -15213,6 +15339,26 @@ msgstr "Vyberte platné připojení"
 #: addons/pro/webhook/class-forminator-addon-webhook-quiz-hooks.php:585
 msgid "Info"
 msgstr "Info"
+
+#: addons/pro/activecampaign/class-forminator-addon-activecampaign-form-hooks.php:282
+#: addons/pro/activecampaign/class-forminator-addon-activecampaign-quiz-hooks.php:311
+msgid "Successfully send data to ActiveCampaign"
+msgstr "Úspěšně odesílejte data do ActiveCampaign"
+
+#. translators: ...
+#: addons/pro/hubspot/class-forminator-addon-hubspot-form-hooks.php:162
+#: addons/pro/hubspot/class-forminator-addon-hubspot-quiz-hooks.php:175
+msgid "Email on element %1$s not found or not filled on submitted data."
+msgstr "E-mail na prvku %1$s nebyl nalezen nebo není vyplněn na odeslaných datech."
+
+#: addons/pro/activecampaign/class-forminator-addon-activecampaign-form-hooks.php:156
+#: addons/pro/activecampaign/class-forminator-addon-activecampaign-quiz-hooks.php:163
+#: addons/pro/aweber/class-forminator-addon-aweber-form-hooks.php:150
+#: addons/pro/aweber/class-forminator-addon-aweber-quiz-hooks.php:160
+#: addons/pro/campaignmonitor/class-forminator-addon-campaignmonitor-form-hooks.php:156
+#: addons/pro/campaignmonitor/class-forminator-addon-campaignmonitor-quiz-hooks.php:163
+msgid "List ID not properly set up."
+msgstr "ID seznamu není správně nastaveno."
 
 #: addons/pro/activecampaign/class-forminator-addon-activecampaign-form-hooks.php:399
 #: addons/pro/activecampaign/class-forminator-addon-activecampaign-quiz-hooks.php:428
@@ -15236,10 +15382,6 @@ msgstr "Info"
 #: admin/locale.php:195
 msgid "No"
 msgstr "Ne"
-
-#: addons/pro/activecampaign/class-forminator-addon-activecampaign-form-hooks.php:42
-msgid "ActiveCampaign failed to process submitted data. Please check your form and try again"
-msgstr "Programu ActiveCampaign se nepodařilo zpracovat odeslaná data. Zkontrolujte prosím svůj formulář a zkuste to znovu"
 
 #: addons/pro/activecampaign/class-forminator-addon-activecampaign-form-hooks.php:399
 #: addons/pro/activecampaign/class-forminator-addon-activecampaign-quiz-hooks.php:428
@@ -15285,6 +15427,10 @@ msgstr "Ano"
 #: admin/views/quiz/entries/content-leads.php:435
 msgid "Integration Name"
 msgstr "Název integrace"
+
+#: addons/pro/activecampaign/class-forminator-addon-activecampaign-form-hooks.php:42
+msgid "ActiveCampaign failed to process submitted data. Please check your form and try again"
+msgstr "Programu ActiveCampaign se nepodařilo zpracovat odeslaná data. Zkontrolujte prosím svůj formulář a zkuste to znovu"
 
 #: library/fields/website.php:248
 msgid "Please enter a valid Website URL (e.g. https://wpmudev.com/)."
@@ -15651,10 +15797,6 @@ msgstr "pondělí"
 msgid "Date"
 msgstr "datum"
 
-#: admin/locale.php:370
-msgid "Theme"
-msgstr "Šablona"
-
 #: addons/pro/activecampaign/views/form-settings/pick-name.php:48
 #: addons/pro/activecampaign/views/quiz-settings/pick-name.php:48
 #: addons/pro/aweber/class-forminator-addon-aweber-form-settings.php:358
@@ -15700,6 +15842,16 @@ msgstr "Jméno"
 msgid "Email Address"
 msgstr "Emailová adresa"
 
+#: admin/locale.php:370
+msgid "Theme"
+msgstr "Šablona"
+
 #: admin/classes/class-admin-l10n.php:302 admin/locale.php:1547
 msgid "Regular"
 msgstr "Výchozí"
+
+#. translators: ...
+#: addons/pro/googlesheet/views/settings/setup-client.php:22
+#: addons/pro/slack/views/settings/setup-client.php:23
+msgid "Set Up %1$s Client"
+msgstr "Nastavit %1$s klienta"

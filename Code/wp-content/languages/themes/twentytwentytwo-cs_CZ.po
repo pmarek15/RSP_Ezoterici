@@ -11,15 +11,15 @@ msgstr ""
 "Language: cs_CZ\n"
 "Project-Id-Version: Themes - Twenty Twenty-Two\n"
 
-#. Theme Name of the theme
-#, gp-priority: high
-msgid "Twenty Twenty-Two"
-msgstr "Twenty Twenty-Two"
-
 #. Description of the theme
 #, gp-priority: high
 msgid "Built on a solidly designed foundation, Twenty Twenty-Two embraces the idea that everyone deserves a truly unique website. The theme’s subtle styles are inspired by the diversity and versatility of birds: its typography is lightweight yet strong, its color palette is drawn from nature, and its layout elements sit gently on the page. The true richness of Twenty Twenty-Two lies in its opportunity for customization. The theme is built to take advantage of the Full Site Editing features introduced in WordPress 5.9, which means that colors, typography, and the layout of every single page on your site can be customized to suit your vision. It also includes dozens of block patterns, opening the door to a wide range of professionally designed layouts in just a few clicks. Whether you’re building a single-page website, a blog, a business website, or a portfolio, Twenty Twenty-Two will help you create a site that is uniquely yours."
 msgstr "Twenty Twenty-Two je postaveno na důkladně navržených základech a vychází z myšlenky, že každý si zaslouží skutečně jedinečné webové stránky. Jemné styly tématu jsou inspirovány rozmanitostí a všestranností ptáků: jeho typografie je jednoduchá, ale výrazná, barevná paleta vychází z přírody a prvky rozvržení sedí na stránce jemně. Skutečný přínos Twenty Twenty-Two spočívá v možnosti přizpůsobení. Šablona je vytvořena tak, aby využívala funkce Úplné úpravy webu představené ve WordPressu 5.9, což znamená, že barvy, typografii a rozvržení každé jednotlivé stránky vašeho webu lze přizpůsobit podle vašich představ. Obsahuje také desítky blokových vzorů, což otevírá dveře k široké škále profesionálně navržených rozvržení na několik kliknutí. Ať už vytváříte jednostránkový web, blog, firemní web nebo portfolio, Twenty Twenty-Two vám pomůže vytvořit web, který bude jedinečně váš."
+
+#. Theme Name of the theme
+#, gp-priority: high
+msgid "Twenty Twenty-Two"
+msgstr "Twenty Twenty-Two"
 
 #: styles/swiss.json
 msgctxt "Duotone name"
@@ -62,13 +62,13 @@ msgid "Blue"
 msgstr "Modré"
 
 #: inc/patterns/hidden-404.php:14
+msgid "Search"
+msgstr "Vyhledat"
+
+#: inc/patterns/hidden-404.php:14
 msgctxt "label"
 msgid "Search"
 msgstr "Vyhledávání"
-
-#: inc/patterns/hidden-404.php:14
-msgid "Search"
-msgstr "Vyhledat"
 
 #: theme.json
 msgctxt "Template part name"
@@ -931,12 +931,12 @@ msgstr "Doporučené stránky"
 msgid "https://wordpress.org/themes/twentytwentytwo/"
 msgstr "https://cs.wordpress.org/themes/twentytwentytwo/"
 
-#. Author of the theme
-#, gp-priority: low
-msgid "the WordPress team"
-msgstr "Vývojáři WordPressu (a překladatelé)"
-
 #. Author URI of the theme
 #, gp-priority: low
 msgid "https://wordpress.org/"
 msgstr "https://cs.wordpress.org/"
+
+#. Author of the theme
+#, gp-priority: low
+msgid "the WordPress team"
+msgstr "Vývojáři WordPressu (a překladatelé)"
