@@ -24,3 +24,6 @@ Pod záložkou přihlášení registrovaný uživatel zadá své jméno a heslo,
 
 <h3>HelpDesk</h3>
 Pokud má uživatel technický problém, může využít formulář HelpDesku. Ve formuláři zadá své jméno, e-mailovou adresu a popíše svůj problém.
+
+<h3>Autor</h3>
+V případě, že se uživatel přihlásil jako autor, zobrazí se mu záložka "Nový příspěvek". Pomocí této stránky může uživatel zaslat svůj článek. Mezi povinné informace patří titulek příspěvku, zařazení do rubriky, nahrání souboru a vyplnění kontaktu na autora - jméno, e-mailová adresa a telefon.
