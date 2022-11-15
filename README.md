@@ -18,3 +18,9 @@ V pravém horním rohu se vyskytují odkazy k přístupu k uživatelskému účt
 
 <h3>Registrace</h3>
 Každý, kdo má zájem zaslat svůj článek pro vydání v časopisu se může pod tímto odkazem zaregistrovat. Registrace vyžaduje tři povinná políčka – uživatelské jméno, e-mail a heslo, které si zákazník vymyslí. Následně do e-mailové schránky dorazí potvrzovací e-mail, který musí zákazník odkliknout. Poté je jeho účet aktivován.
+
+<h3>Přihlášení</h3>
+Pod záložkou přihlášení registrovaný uživatel zadá své jméno a heslo, které ho propustí do jeho uživatelského účtu.
+
+<h3>HelpDesk</h3>
+Pokud má uživatel technický problém, může využít formulář HelpDesku. Ve formuláři zadá své jméno, e-mailovou adresu a popíše svůj problém.
