@@ -7,7 +7,11 @@
 Projekt je aktivní pod <a href="https://alpha.kts.vspj.cz/~dostal39/rsp/">tímto odkazem</a> <br>
 
 V projektu jsou aktivní následující ukázkové účty s danými oprávněními. Všechny účty jsou ve formátu login / heslo. <br>
-•	Autor (autor1 / autor1) <br>
+•	Autor (autor / autor) <br>
+• Recenzent (RecenzentA / recenzent) <br>
+• Recenzent (RecenzentB / recenzent) <br>
+• Sefredaktor (Sefredaktor / sefredaktor) <br>
+• Redaktor (Redaktor / redaktor) <br>
 
 <h2>Uživatelská dokumentace </h2>
 <h3> Úvodní stránka </h3>
@@ -58,15 +62,7 @@ Po pravé straně se zobrazují nejnovější příspěvky a nejnovější komen
 <h3>Redaktor</h3>
 Redaktor vidí úvodní stránku, helpdesk, minulá vydání časopisu, dále má rovněž možnost komentování, procházení článků a jejich filtraci.
 
-
-Přihlašovací údaje pro jednotlivé účty:
-Autor – heslo: autor
-RecenzentA – heslo: recenzent
-RecenzentB – heslo: recenzent
-Sefredaktor – heslo: sefredaktor
-Redaktor – heslo: redaktor
-
-Práva jednotlivých účtů:
+<h3>Práva jednotlivých účtů:</h3>
 
 | Ucet          | Prava |
 | ------------- | ------------- |
