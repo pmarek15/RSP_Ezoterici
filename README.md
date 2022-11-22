@@ -49,14 +49,17 @@ V případě, že se uživatel přihlásil jako autor, zobrazí se mu záložka 
 
 <h3>Recenzent</h3>
 Uživatel přihlášený jako recenzent, vidí úvodní stránku, má možnost rozkliknout minulá vydání časopisu, použít helpdesk a procházet jednotlivé články. Možné je také přidávat komentáře. Články lze filtrovat dle rubriky (ekonomika, technologie, zdravotnictví, nebo nezařazené), dle datumu, nebo podle názvu článku.
+
 ![image](https://user-images.githubusercontent.com/114701167/203278089-7a7f8a30-ddaa-48fb-a4ba-55e4467ef096.png)
 
 <h3>Šéfredaktor</h3>
 Pokud se uživatel přihlásí jako Šéfredaktor, má možnost vidět úvodní stránku, minulá vydání a procházet a filtrovat články. Rovněž má možnost využít helpdesk.
 Při rozkliknutí článku je možné přidávat komentáře a odpovídat na komentáře jiných uživatelů.
+
 ![image](https://user-images.githubusercontent.com/114701167/203278139-c9ece04e-65d9-4440-bef0-7211c33dc962.png)
 
 Po pravé straně se zobrazují nejnovější příspěvky a nejnovější komentáře, vše s možností prokliku. Dále také jednotlivé rubriky.
+
 ![image](https://user-images.githubusercontent.com/114701167/203278195-a74a7e2d-de26-4983-9f5b-b5e5c4956b16.png)
 
 <h3>Redaktor</h3>
